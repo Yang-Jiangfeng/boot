@@ -1,0 +1,8 @@
+mvn clean                     清除target
+mvn clean install -Dmaven.test.skip=true        创建target并忽略test
+git clone git地址             从网上仓库克隆
+git status                      查看文件提交状态
+git add （项目根目录）文件路径                 提交到本地仓库
+git commit -m “为本次提交做描述”                提交到远程仓库第一步
+git push origin（文件名，一般为默认值origin） master（分支，master是主分支）          提交到远程仓库第二步
+输入用户名和密码                                提交到远程仓库第三步
