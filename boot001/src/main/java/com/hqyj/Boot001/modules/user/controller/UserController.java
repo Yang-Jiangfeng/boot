@@ -14,5 +14,4 @@ public class UserController {
     public String testDesc() {
         return "This is user module desc.";
     }
-
 }
