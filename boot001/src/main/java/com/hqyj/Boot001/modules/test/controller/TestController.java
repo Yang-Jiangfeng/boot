@@ -1,6 +1,6 @@
 package com.hqyj.Boot001.modules.test.controller;
 
-import com.hqyj.Boot001.modules.vo.ApplicationTest;
+import com.hqyj.Boot001.modules.test.vo.ApplicationTest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -55,11 +55,13 @@ public class TestController {
     @ResponseBody
     public String configTest() {
         StringBuffer s = new StringBuffer()
+                .append(port).append("----")
                 .append(name).append("----")
                 .append(age).append("----")
                 .append(desc).append("----")
                 .append(random).append("----").append("<br>");
-        s.append(applicationTest.getName()).append("----")
+        s.append(applicationTest.getPort()).append("----")
+                .append(applicationTest.getName()).append("----")
                 .append(applicationTest.getAge()).append("----")
                 .append(applicationTest.getDesc()).append("----")
                 .append(applicationTest.getRandom()).append("----");

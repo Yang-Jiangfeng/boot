@@ -1,0 +1,3 @@
+netstat -ano : findesr "80"             查询端口运行情况
+taskkill /f /pid 8924                   关闭pid为8924的进程
+keytool -genkey -alias yang -keyalg RSA             手动生成ssl证书
