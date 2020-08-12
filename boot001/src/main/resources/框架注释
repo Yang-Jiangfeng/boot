@@ -1,0 +1,2 @@
+@Mapper         标识dao接口层
+@Repository     持久层（dao层需要加上）
